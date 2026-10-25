@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gilda+Display&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Zeyada&display=swap');
+
+.h1{
+   font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; 
+  color:#f5f6fa;
+}
+.body{
+    background-color: #2f3640;
+    font-family: "Gilda Display", serif;
+    color:#f5f6fa ;
+    margin: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
