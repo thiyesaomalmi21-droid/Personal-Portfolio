@@ -31,22 +31,52 @@
 
 }
 .cardDesign: :hover {
-    background-color: #242831 !important; /* Soft dark slate background */
-    color: #ffffff !important;             /* White body text */
-    border: 1px solid rgba(232, 180, 184, 0.3) !important; /* Soft Rose Gold border */
+    background-color: #242831 !important; 
+    color: #ffffff !important;             
+    border: 1px solid rgba(232, 180, 184, 0.3) !important; 
     border-radius: 16px;
     transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 10px 30px rgba(184, 192, 255, 0.15);
 }
 .cardDesign .card-title {
-    color: #182C61 !important; /* Rose Gold / Blush Pink for Titles */
+    color: #182C61 !important; 
     font-weight: 600;
 }
 .cardDesign .card-subtitle {
-    color: #485460 !important; /* Rose Gold / Blush Pink for Titles */
+    color: #485460 !important; 
     font-weight: 600;
 }
 .teckStack{
     color: #303952;
     font-weight: 600;
+}
+.theme-secondary {
+    background-color: #192a56 !important; 
+    color: #dcdde1 !important;            
+    border: none !important;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none !important;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.theme-secondary:hover {
+    background-color: #192a56 !important; 
+    color: #dcdde1 !important;
+    transform: translateY(-2px);           
+    box-shadow: 0 4px 12px rgba(184, 192, 255, 0.3);
+}
+html {
+    scroll-behavior: smooth;
+}
+.profile-img {
+    width: 450px !important;
+    height: 550px !important;           /* 1. Add a fixed height so the box has a shape */
+    object-fit: cover !important;       /* 2. Keeps the image from stretching/distorting */
+    object-position: top center !important;
+     margin-left: 5px !important;
+ 
 }
