@@ -10,32 +10,35 @@
     
         
 </head>
+
 <body class="body">
+    <nav class="fixed-top px-4 py-2" style="background-color: #1d2730;">
     <div class="container text-center">
   <div class="row ">
     <div class="col">
-      <ul class="nav justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-  </li>
-</ul>
+     <ul class="nav justify-content-end">
+         <li class="nav-item">
+        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link text-white" href="#teckStack">Tech Stack</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link text-white" href="#projects">Projects</a>
+        </li>
+         <li class="nav-item">
+        <a class="nav-link disabled text-muted" aria-disabled="true">Disabled</a>
+        </li>
+        </ul>
     </div>
    
   </div>
 </div>
+</nav>
 <div >
     <section id="HomePage">
         <div class="container">
-             <div class="row ">
+             <div class="row align-items-center">
         <div class="col ">
             
             <img  src="image/Professional Office Headshot with Layered Gold Necklaces.png" class="img-fluid rounded float-start profile-img"alt="" srcset="" >
@@ -49,9 +52,10 @@
             <p font-family: "Gilda Display", serif;  >
                 Passionate about building modern web applications, scalable software solutions, and clean user interfaces. Currently expanding my skills in full-stack development, database architecture, and object-oriented design.
             </p>
-            <a href="#projects" class="btn-solid theme-secondary text-decoration-none">View Projects</a>
-            <button type="button" class="btn-solid theme-secondary">Contact Me</button>
-            <button type="button" class="btn-solid theme-secondary">Download my CV</button>
+            <a href="#projects" class=" btn-solid theme-success">View Projects</a>
+            <a href="#" class=" btn-solid theme-success">Contact Me</a>
+            <a href="#" class=" btn-solid theme-success">Download my CV</a>
+            
                
         </div>
     </div>
@@ -63,8 +67,8 @@
         <div class="container" >
             <h2 class="h2 text-center mb-5">Featured Projects</h2>
             <div class="row mt-5 py-5" >
-                <div class="col" >
-                    <div class="card cardDesign" style="max-width: 320px ; background-color: #aaa69d;  ">
+                <div class="col-4 mb-4" >
+                    <div class="card cardDesign h-100" style=" background-color: #aaa69d;  ">
                         <div class="card-body">
                             <h4 class="card-title">Student Management System GUI</h4>
                             <p class="card-subtitle fg-3 cardDesign"></p>
@@ -75,9 +79,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col" >
-                    <div class="card cardDesign" style="max-width: 320px; background-color: #aaa69d;">
-                        <div class="card-body">
+                <div class="col-4 mb-4" >
+                    <div class="card cardDesign h-100" style=" background-color: #aaa69d;">
+                        <div class="card-body ">
                             <h4 class="card-title">Java Chat Application</h4>
                             <p class="card-subtitle fg-3 cardDesign">Real-Time Java Chat Application</p>
                             <p class="card-text">A desktop application built with Java showcasing core Object-Oriented Programming (OOP) concepts, network communication, and real-time event handling.</p>
@@ -87,14 +91,13 @@
                         </div>
                         </div>
                 </div>
-                <div class="col" >
-                    <div class="card cardDesign" style="max-width: 320px; background-color: #aaa69d;">
+                <div class="col-4 mb-4" >
+                    <div class="card cardDesign h-100" style=" background-color: #aaa69d;">
                         <div class="card-body">
                             <h4 class="card-title">Responsive Personal Portfolio Website</h4>
-                            <p class="card-subtitle fg-3  cardDesign">With a card subtitle</p>
                             <p class="card-text">A modern, single-page developer portfolio designed with HTML5, CSS3, and Bootstrap to showcase software engineering work and technical skills.</p>
                             <p class="teckStack" >Teck Stack :</p>
-                            <p>HTML5 <br>CSS3  <br> Bootstrap 5 </p>
+                            <p>HTML5 <br>CSS3  <br> Bootstrap 6.0 </p>
                             <a href="https://github.com/thiyesaomalmi21-droid/Personal-Portfolio" class="btn-solid theme-secondary">GitHub Repository</a>
                         </div>
                         </div>
@@ -103,6 +106,37 @@
             </div>
         </div> 
 
+    </section>
+    <section id="teckStack">
+        <div class="container">
+            <div class="row mt-5 py-5 align-items-center">
+                <div class="col-6 mb-4">
+                    <img src="image/Gemini_Generated_Image_qzrttxqzrttxqzrt.jpg" class="img-fluid rounded ">
+                </div>
+                <div class="col-6 mb-4">
+                    <div class="card cardDesign h-100 " style="background-color: #ffcccc; border: none;">
+                    <div class="card-body">
+                            <h4 class="card-title h2 text-center mb-5">Technology Stack </h4>
+                        <p class="card-subtitle fg-3 mb-1" style="color: #4e4942; font-weight: 600;">Languages & Core: <span class="tech-item">Java</span>, <span class="tech-item">HTML5</span>, <span class="tech-item">CSS3</span>, <span class="tech-item">JavaScript</span></p>
+                        
+
+                        <p class="card-subtitle fg-3 mb-1" style="color: #4e4942; font-weight: 600;">Frameworkd & Libraries : <span class="tech-item">Bootstrap</span>, <span class="tech-item">Java Swing</span></p>
+                        
+
+                        <p class="card-subtitle fg-3 mb-1" style="color: #4e4942; font-weight: 600;">Databases & Tools : <span class="tech-item">MySQL</span>, <span class="tech-item">DBeaver</span>, <span class="tech-item">Git</span>, <span class="tech-item">VS Code</span>, <span class="tech-item">NetBeans</span></p>
+                            
+                        
+                        </div>
+                        </div>
+                    <h2 text-center mb-5>
+                        
+                    </h2>
+                    <p>
+
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
     </div>
     

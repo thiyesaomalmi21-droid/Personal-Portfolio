@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Zeyada&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gilda+Display&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Zeyada&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Dancing+Script:wght@400..700&family=Gilda+Display&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant+Upright:wght@300;400;500;600;700&family=Dancing+Script:wght@400..700&family=Gilda+Display&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Zeyada&display=swap');
 
 .h1{
    font-family: "Dancing Script", cursive;
@@ -13,6 +14,9 @@
 }
 .h2{
     font-family: "Cormorant Upright", serif;
+}
+.h3{
+    font-family: "Bodoni Moda", serif;
 }
 .p{
     font-size: 1.25rem;
@@ -79,4 +83,19 @@ html {
     object-position: top center !important;
      margin-left: 5px !important;
  
+}
+.btn-solid.theme-success{
+    background-color: #60a3bc;
+    border-color: #60a3bc;
+    color: #130f40;
+
+}
+.btn-solid.theme-success:hover{
+    background-color: #c7ecee !important;
+     transform: translateY(-2px);           
+    box-shadow: 0 4px 12px rgba(184, 192, 255, 0.3);
+}
+.tech-item {
+  color: #343a40; /* Specific color for items */
+  font-weight: 600; /* Semi-bold weight */
 }
