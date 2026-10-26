@@ -99,3 +99,17 @@ html {
   color: #343a40; /* Specific color for items */
   font-weight: 600; /* Semi-bold weight */
 }
+.btn-solid-new{
+    background-color: #dcdde1;
+    color: #130f40;
+}
+
+.btn-solid-new:hover{
+    background-color: #ffcccc !important;
+     transform: translateY(-2px);           
+    box-shadow: 0 4px 12px rgba(184, 192, 255, 0.3);
+}
+.nav {
+  display: flex;
+  gap: 20px; /* Adjust this value (e.g., 15px, 20px, 30px) to get your desired spacing */
+}
