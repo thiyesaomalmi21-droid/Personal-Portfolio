@@ -92,7 +92,7 @@ html {
 }
 .btn-solid.theme-success:hover{
     background-color: #c7ecee !important;
-     transform: translateY(-2px);           
+    transform: translateY(-2px);           
     box-shadow: 0 4px 12px rgba(184, 192, 255, 0.3);
 }
 .tech-item {
@@ -113,3 +113,36 @@ html {
   display: flex;
   gap: 20px; /* Adjust this value (e.g., 15px, 20px, 30px) to get your desired spacing */
 }
+
+.theme-newsecondary{
+    background-color:#7f8fa6 !important; 
+    color: #273c75 !important;            
+    border: none !important;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none !important;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.theme-newsecondary:hover {
+    background-color:#384c82 !important; 
+    color: #dcdde1 !important;
+    transform: translateY(-2px);           
+    box-shadow: 0 4px 12px rgba(184, 192, 255, 0.3);
+}
+
+.projects-scroll-container {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory; /* Enable snap scrolling */
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar in IE/Edge */
+  padding-bottom: 15px;
+}
+
+/* Hide scrollbar in Chrome/Safari/Brave */
+/* .projects-scroll-container::-webkit-scrollbar {
+  display: none;
+} */
