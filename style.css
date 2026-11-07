@@ -34,7 +34,7 @@
     padding-bottom: 0%;
 
 }
-.cardDesign: :hover {
+.cardDesign :hover {
     background-color: #242831 !important; 
     color: #ffffff !important;             
     border: 1px solid rgba(232, 180, 184, 0.3) !important; 
@@ -133,16 +133,3 @@ html {
     box-shadow: 0 4px 12px rgba(184, 192, 255, 0.3);
 }
 
-.projects-scroll-container {
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory; /* Enable snap scrolling */
-  scrollbar-width: none; /* Hide scrollbar in Firefox */
-  -ms-overflow-style: none; /* Hide scrollbar in IE/Edge */
-  padding-bottom: 15px;
-}
-
-/* Hide scrollbar in Chrome/Safari/Brave */
-/* .projects-scroll-container::-webkit-scrollbar {
-  display: none;
-} */
