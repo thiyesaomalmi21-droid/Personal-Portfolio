@@ -116,13 +116,14 @@
             <div class="container">
                 <h2 class="h2 text-center mb-5">Featured Projects</h2>
                 <div class="container position-relative">
-                    <button type="button"
-                        class="position-absolute start-0 top-50 translate-middle-y z-3 rounded-circle border-0 bg-white shadow d-flex align-items-center justify-content-center"
-                        style="width: 45px; height: 45px;">
+                    
+                    <button type="button" id="leftbtn"
+                        class="position-absolute start-0 top-50 translate-middle-y z-3 rounded-circle border-0 bg-white shadow d-flex align-items-center justify-content-center "
+                        style="width: 45px; height: 45px; " onclick="leftScroll()">
                         <i class="bi bi-chevron-left fs-5"></i>
                     </button>
 
-                    <div class="d-flex flex-nowrap overflow-x-auto gap-4 py-3">
+                    <div  id="scrollbar" class= "d-flex flex-nowrap overflow-x-auto gap-4 py-3">
 
                         <div class="card cardDesign flex-shrink-0 " style=" background-color: #aaa69d; width: 350px ; ">
                             <div class="card-body">
@@ -188,9 +189,9 @@
 
 
                     </div>
-                    <button type="button"
+                    <button type="button" id="rightbtn"
                         class="position-absolute end-0 top-50 translate-middle-y z-3 rounded-circle border-0 bg-white shadow d-flex align-items-center justify-content-center"
-                        style="width: 45px; height: 45px;">
+                        style="width: 45px; height: 45px;" onclick="rightScroll()">
                         <i class="bi bi-chevron-right fs-5"></i>
                     </button>
                 </div>
@@ -275,7 +276,7 @@
         integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
         crossorigin="anonymous"></script>
 
-        
+
     <script src="app.js"></script>
     </body>
 
