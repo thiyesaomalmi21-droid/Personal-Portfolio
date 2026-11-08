@@ -7,7 +7,7 @@
 .h1{
    font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal; 
   color: #ced6e0;
   font-size: 4.5rem !important;
@@ -78,8 +78,8 @@ html {
 }
 .profile-img {
     width: 450px !important;
-    height: 550px !important;           /* 1. Add a fixed height so the box has a shape */
-    object-fit: cover !important;       /* 2. Keeps the image from stretching/distorting */
+    height: 550px !important;           
+    object-fit: cover !important;      
     object-position: top center !important;
      margin-left: 5px !important;
  
@@ -96,8 +96,8 @@ html {
     box-shadow: 0 4px 12px rgba(184, 192, 255, 0.3);
 }
 .tech-item {
-  color: #343a40; /* Specific color for items */
-  font-weight: 600; /* Semi-bold weight */
+  color: #343a40; 
+  font-weight: 600;
 }
 .btn-solid-new{
     background-color: #dcdde1;
@@ -111,7 +111,7 @@ html {
 }
 .nav {
   display: flex;
-  gap: 20px; /* Adjust this value (e.g., 15px, 20px, 30px) to get your desired spacing */
+  gap: 20px; 
 }
 
 .theme-newsecondary{
@@ -133,14 +133,14 @@ html {
     box-shadow: 0 4px 12px rgba(184, 192, 255, 0.3);
 }
 
-/* Hide scrollbar for Chrome, Safari, and Opera */
+
 #scrollbar::-webkit-scrollbar {
     display: none;
 }
 
-/* Hide scrollbar for IE, Edge, and Firefox */
+
 #scrollbar {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
 }
 
